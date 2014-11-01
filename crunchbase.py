@@ -113,7 +113,7 @@ class CrunchBase(object):
         :param page: str or unicode or int (the page of results to retrieve )
         :return:
         """
-        path = 'organizations'
+        path = 'people'
         result = self.__get_data(path=path, page=page)
         return result
 
